@@ -1,5 +1,6 @@
 package ejercicio02;
 
+
 public class principal {
 
 	public static void main(String[] args) {
@@ -22,7 +23,7 @@ public class principal {
 		System.out.println("El volumen de la segunda piscina es: "+volumen2);
 		
 		//Calculo de precios
-		
+
 	}
 
 }
