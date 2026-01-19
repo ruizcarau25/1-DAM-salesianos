@@ -47,7 +47,7 @@ public class Publicaciones implements ILibreria{
 	public int publicacionesAnterioresA(Publicaciones[] listaPublicaciones, int año) {
 		int anteriores=0;
 		for (int i = 0; i < listaPublicaciones.length; i++) {
-			if (listaPublicaciones[i].getAño() < año) {
+			if (listaPublicaciones[i].año < año) {
 				anteriores++;
 			}
 		}
